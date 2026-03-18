@@ -1,0 +1,64 @@
+Nyxian: Xcode straight from your pocket
+=======================================
+
+![Nyxian running on iPadOS 26.x](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*SKo00NmiV-HzDT6qiFoYGg.png)
+
+
+Building native and running iOS apps directly on your iPhone — no jailbreak required
+------------------------------------------------------------------------------------
+
+<!-- truncate -->
+
+> “How a teen built an Xcode alternative after parents took their MacBook.”
+
+### Does it actually work?
+
+Yes! Nyxian is an iOS app that empowers developers with a full toolchain they can use while even being offline for iOS development on iPhone. It supports C, ObjC, C++ and ObjC++ with Swift support announced for 0.9.x. It’s a powerful Xcode alternative that made the impossible possible, a fully On-device iOS IDE that doesn’t even need a cloud. It supports officially iOS 18 all the way up to the latest iOS version. You can compile and run iOS apps on the go without any problems, using the entire iOS 26.1 SDK.
+
+<div className="horizontal-row">
+    <img src="https://miro.medium.com/v2/resize:fit:668/format:webp/1*bComURViz8pIjIFFq7AIVw.png" alt="captionless image" />
+    <img src="https://miro.medium.com/v2/resize:fit:668/format:webp/1*NH7SynK5RHOvB4Re93nFtw.png" alt="captionless image" />
+    <img src="https://miro.medium.com/v2/resize:fit:668/format:webp/1*MCBwLPa7FOAfWJqB6pLWTw.png" alt="Nyxian running on iOS 26.x" />
+</div>
+
+### My experience with Nyxian?
+
+I wrote an entire file management app on my iPhone without touching my MacBook and it works amazingly, it compiles and executes the app using powerful techniques like multi-threaded compilation and incremental building in under a second.
+
+### Is Apple sleeping on mobile development?
+
+In my opinion, yes, absolutely, no doubts. The fact that this tool even works on iPhones — not just iPads, is something Apple seems not to have figured out yet, with their Swift Playgrounds application, which they seem to have abandoned.
+
+### Why I built Nyxian?
+
+Hi, I’m Frida (cr4zyengineer), and I created Nyxian. My story started in 2023 when my parents took away my MacBook. I was stuck, I wanted to code, but had no way to develop iOS apps without my computer.
+
+Get FridaDEV’s stories in your inbox
+------------------------------------
+
+Join Medium for free to get updates from this writer.
+
+Subscribe
+
+Subscribe
+
+Remember me for faster sign in
+
+That frustration sparked a vision: build a good, intuitive iOS-native IDE that runs straight from your pocket.
+
+Nyxian is the successor to FridaCodeManager, which itself followed SparkCode. The difference? Those predecessors were slower and required a jailbreak. Nyxian works completely on stock iOS — no jailbreak needed.
+
+My projects pioneered iOS-on-iOS development.
+
+### Installing Nyxian
+
+Nyxian will likely never be in the AppStore, but it’s entirely Open Source: [https://github.com/ProjectNyxian/Nyxian](https://github.com/ProjectNyxian/Nyxian).
+
+You can either:
+
+*   Clone the repo and build it yourself
+*   Download the latest pre-release: [https://github.com/ProjectNyxian/Nyxian/releases](https://github.com/ProjectNyxian/Nyxian/releases)
+
+Try Nyxian and share what you build! Follow development at @fridadev on X.
+
+If this project interests you, share it with other iOS developers — help spread the word that on-device development is finally possible.

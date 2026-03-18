@@ -4,7 +4,7 @@
   "subtitle": "Unfolding the power of stock iOS coding.",
   "description": "Nyxian is a iOS app that lets you build and deploy iOS apps directly on-device without owning any computer. Means you can program where ever and when ever and in any type of situation. It currently supports iOS 16.0 upto the latest iOS version. Its designed for people that often find them selves on the go and dont want to take their mac with them selves and for the people who want to get into iOS software development but dont own a mac. Previously such a app didnt exist because no one tried to build something like that, propably because people thought that its not possible.",
   "iconURL": "https://nyxian.app/img/icon/light.png",
-  "website": "https://nyxian.app",
+  "website": "https://nyxian.app/",
   "tintColor": "#6156e2",
   "featuredApps": [
     "com.cr4zy.nyxian"
@@ -170,14 +170,13 @@
   ],
   "news": [
     {
-      "title": "Nyxian for jailbroken devices is coming...",
-      "identifier": "news_jailbreak_soon",
-      "caption": "For Rootless and later Rootful!",
-      "date": "2026-01-17T14:56:00Z",
-      "tintColor": "#66cfcb",
+      "title": "Discord",
+      "identifier": "discord",
+      "caption": "The offical Nyxian Discord Server",
+      "date": "2026-02-23T20:24:00Z",
+      "tintColor": "#5865F2",
       "notify": false,
-      "url": "https://x.com/fridadev/status/2012539407576809805?s=46",
-      "appID": "com.cr4zy.nyxian"
+      "url": "https://discord.gg/VEMvDMJ8KB"
     }
   ]
 }

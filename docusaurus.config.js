@@ -1,36 +1,22 @@
-// @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
-// Replace this regex '^ *// [^ ].*$\n' with '' to delete all docsaurus comments
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Nyxian',
-  tagline: 'Nyxian the native iOS app development IDE',
-  favicon: '/img/favicon.ico',
+  tagline: 'IDE to develop native code iOS apps and tools on unjailbroken iOS',
+  //favicon: '/favicon/favicon.ico', Unused, see the headTags at the bottom
+
+  titleDelimiter: '·',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  // Set the production url of your site here
-  url: 'https://nyxian.app',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: 'https://nyxian.app/',
   baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ProjectNyxian', // Usually your GitHub org/user name.
-  projectName: 'Website', // Usually your repo name.
 
   onBrokenLinks: 'warn',
 
@@ -58,10 +44,8 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/ProjectNyxian/Website/tree/main/',
+            'https://github.com/ProjectNyxian/nyxian.app/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -69,11 +53,6 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          //editUrl:
-          //  'https://github.com/ProjectNyxian/Website/tree/main/',
-          // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -88,8 +67,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      //image: 'img/social-card.jpg', // Todo: Create a social-card
+      image: 'img/social-card.png',
       colorMode: {
         respectPrefersColorScheme: true,
       },
@@ -98,7 +76,8 @@ const config = {
         logo: {
           alt: 'Nyxian Logo',
           src: 'img/icon/light.png',
-          className: 'logo',
+          srcDark: 'img/icon/dark.png',
+          className: 'rounded',
         },
         items: [
           {
@@ -120,8 +99,20 @@ const config = {
           {
             href: 'https://github.com/ProjectNyxian/Nyxian',
             position: 'right',
-            className: "header-github-link",
+            className: "navbar-icon github",
             'aria-label': 'GitHub',
+          },
+          {
+            href: 'https://discord.gg/VEMvDMJ8KB',
+            position: 'right',
+            className: "navbar-icon discord",
+            'aria-label': 'Discord',
+          },
+          {
+            href: 'https://github.com/sponsors/ProjectNyxian',
+            position: 'right',
+            className: "navbar-icon sponsor",
+            'aria-label': 'Sponsor',
           },
         ],
       },
@@ -182,9 +173,72 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ['c'],
       },
+      metadata: [
+        {name: 'keywords', content: 'Nyxian, native iOS app development, IDE, jailed, unjailbroken, custom kernel'},
+        {name: "description", content: 'IDE to develop native code iOS apps on unjailbroken iOS it self just via a certificate and a kernel virtualization layer for those apps. '},
+      ],
+      headTags: [
+        {
+          tagName: 'link',
+          attributes: {
+            rel: 'icon',
+            type: 'image/png',
+            href: '/favicon/favicon-96x96.png',
+            sizes: '96x96',
+          },
+        },
+        {
+          tagName: 'link',
+          attributes: {
+            rel: 'icon',
+            type: 'image/svg+xml',
+            href: '/favicon/favicon.svg',
+          },
+        },
+        {
+          tagName: 'link',
+          attributes: {
+            rel: 'shortcut icon',
+            href: '/favicon/favicon.ico',
+          },
+        },
+        {
+          tagName: 'link',
+          attributes: {
+            rel: 'apple-touch-icon',
+            sizes: '180x180',
+            href: '/favicon/apple-touch-icon.png',
+          },
+        },
+        {
+          tagName: 'link',
+          attributes: {
+            rel: 'manifest',
+            href: '/favicon/site.webmanifest',
+          },
+        },
+        {
+          tagName: 'script',
+          attributes: {
+            type: 'application/ld+json',
+          },
+          innerHTML: JSON.stringify({
+            '@context': 'https://schema.org/',
+            '@type': 'Organization',
+            name: 'ProjectNyxian',
+            url: 'https://nyxian.app/',
+            logo: 'https://nyxian.app/img/icon/hd/light.png',
+          }),
+        },
+      ],
     }),
   plugins: [require.resolve('docusaurus-lunr-search')],
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
 };
 
 export default config;

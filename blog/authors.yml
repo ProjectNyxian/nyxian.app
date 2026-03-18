@@ -1,6 +1,6 @@
 lucavmu:
   name: LucaVmu
-  title: Manager
+  title: Website Maintainer and Manager
   image_url: https://github.com/LucaVmu.png
   page: true
   socials:
@@ -8,7 +8,7 @@ lucavmu:
 
 frida:
   name: Frida
-  title: Nyxian maintaner
+  title: Maintaner
   image_url: https://github.com/cr4zyengineer.png
   page:
     permalink: '/cr4zyengineer'
