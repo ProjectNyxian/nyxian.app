@@ -1,3 +1,7 @@
+---
+authors: [frida]
+---
+
 Nyxian: Xcode straight from your pocket
 =======================================
 
