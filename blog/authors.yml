@@ -6,12 +6,13 @@ lucavmu:
   socials:
     github: LucaVmu
 
-frida:
-  name: Frida
+nyxia:
+  name: Nyxia
   title: Maintaner
   image_url: https://github.com/cr4zyengineer.png
   page:
     permalink: '/cr4zyengineer'
   socials:
-    x: cr4zyengineer
+    x: nyxengineer
     github: cr4zyengineer
+    email: ceo@nyxian.app
