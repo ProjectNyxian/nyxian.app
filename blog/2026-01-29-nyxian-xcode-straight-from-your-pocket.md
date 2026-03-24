@@ -1,5 +1,5 @@
 ---
-authors: [frida]
+authors: [nyxia]
 ---
 
 Nyxian: Xcode straight from your pocket
