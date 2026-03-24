@@ -48,6 +48,8 @@ const config = {
             'https://github.com/ProjectNyxian/nyxian.app/tree/main/',
         },
         blog: {
+          blogTitle: 'Nyxian News',
+          blogDescription: 'News about Nyxian and it's development progress.',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
