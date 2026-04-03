@@ -37,23 +37,6 @@ In my opinion, yes, absolutely, no doubts. The fact that this tool even works on
 
 Hi, I’m Frida (cr4zyengineer), and I created Nyxian. My story started in 2023 when my parents took away my MacBook. I was stuck, I wanted to code, but had no way to develop iOS apps without my computer.
 
-Get FridaDEV’s stories in your inbox
-------------------------------------
-
-Join Medium for free to get updates from this writer.
-
-Subscribe
-
-Subscribe
-
-Remember me for faster sign in
-
-That frustration sparked a vision: build a good, intuitive iOS-native IDE that runs straight from your pocket.
-
-Nyxian is the successor to FridaCodeManager, which itself followed SparkCode. The difference? Those predecessors were slower and required a jailbreak. Nyxian works completely on stock iOS — no jailbreak needed.
-
-My projects pioneered iOS-on-iOS development.
-
 ### Installing Nyxian
 
 Nyxian will likely never be in the AppStore, but it’s entirely Open Source: [https://github.com/ProjectNyxian/Nyxian](https://github.com/ProjectNyxian/Nyxian).
