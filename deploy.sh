@@ -10,7 +10,6 @@ fi
 [ "$2" != "--skip-build" ] && [ "$2" != "-s" ] && npm run build
 
 ssh "$1" /bin/sh <<'EOF'
-set -e
 rm -rf "$HOME/nyxian.app"
 EOF
 
