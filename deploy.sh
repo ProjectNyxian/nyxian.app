@@ -9,7 +9,10 @@ fi
 
 cd "$(dirname "$(realpath "$0")")"
 
-[ "$2" != "--skip-build" ] && [ "$2" != "-s" ] && npm run build
+if [ "$2" != "--skip-build" ] && [ "$2" != "-s" ]; then
+    npm run build
+    printf "\n"
+fi
 
 ssh "$1" /bin/sh <<'EOF'
 rm -rf "$HOME/nyxian.app"
@@ -23,4 +26,4 @@ mv --exchange -T "$HOME/nyxian.app" /var/www/nyxian.app
 rm -rf "$HOME/nyxian.app"
 EOF
 
-echo "Deployed successfully!"
+printf "\n\033[32;1mDeployed successfully!\033[0m\n"
