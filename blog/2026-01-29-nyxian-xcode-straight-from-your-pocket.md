@@ -11,7 +11,7 @@ Nyxian: Xcode straight from your pocket
 Building native and running iOS apps directly on your iPhone — no jailbreak required
 ------------------------------------------------------------------------------------
 
-<!-- truncate -->
+{/* truncate */}
 
 > “How a teen built an Xcode alternative after parents took their MacBook.”
 
