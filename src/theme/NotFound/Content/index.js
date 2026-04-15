@@ -8,7 +8,7 @@ export default function NotFoundContent({className}) {
       <div className="row">
         <div className="col col--6 col--offset-3" align="center">
           <Heading as="h1" className="hero__title"  align="center">
-            <img src="/img/404.png" />
+            <img src="/img/404.png" alt="404" />
             <Translate
               id="theme.NotFound.title"
               description="The title of the 404 page">
