@@ -37,6 +37,7 @@ function HomepageHeader() {
   );
 }
 
+
 export default function Home() {
   useEffect(() => {
     // Little easter egg
@@ -49,7 +50,7 @@ export default function Home() {
       description={siteConfig.tagline}>
       <HomepageHeader />
       <main className={styles.center}>
-        <img src="/img/mockup.png" alt="Mockup" className={styles.showcase} />
+        <img src={useBaseUrl('/img/mockup.png')} alt="Mockup" className={styles.showcase} />
       </main>
     </Layout>
   );
