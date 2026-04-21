@@ -15,7 +15,7 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  url: 'https://nyxian.app/',
+  url: process.env.URL || 'https://nyxian.app/',
   baseUrl: process.env.BASE_URL || '/',
 
   onBrokenLinks: 'throw',
