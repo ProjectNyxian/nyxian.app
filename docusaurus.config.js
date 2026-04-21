@@ -16,7 +16,7 @@ const config = {
   },
 
   url: 'https://nyxian.app/',
-  baseUrl: '/',
+  baseUrl: process.env.BASE_URL || '/',
 
   onBrokenLinks: 'throw',
 
