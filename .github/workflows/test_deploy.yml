@@ -25,6 +25,7 @@ jobs:
         run: npm ci
       - name: Build site
         env:
+          URL: https://projectnyxian.github.io
           BASE_URL: /nyxian.app/
         run: npm run build
       - name: Upload Pages artifact
