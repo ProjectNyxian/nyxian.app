@@ -3,13 +3,13 @@ title: New Website!
 authors: [lucavmu]
 ---
 
-Welcome to Nyxian new Website! Now actually working...
+Welcome to Nyxian's new Website! Now actually working...
 
 {/* truncate */}
 
 As you might have noticed the entire Nyxian website has been changed and now uses Docusaurus.
 
-The entire documentation is written using markdown, so anyone should be able to contribute.
+The entire documentation is written using markdown, so anyone is be able to contribute.
 But for now no contributing to the website, as the Github repo for the website still needs to be setup...
 
 Edit: You can now contribute! :D
