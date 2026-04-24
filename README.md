@@ -6,6 +6,7 @@
 
 ## Todo
 - Documentations to write:
+    - [ ] nxtool guide
     - [ ] Syscalls
     - [ ] Entitlement system
     - [ ] Kernel explaination
