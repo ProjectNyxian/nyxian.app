@@ -7,7 +7,7 @@ if [ -z "${1%@*}" ] || [ -z "${1#*@}" ]; then
     exit 1
 fi
 
-cd "$(dirname "$(realpath "$0")")"
+cd "$(dirname "$0")"
 
 if [ "$2" != "--skip-build" ] && [ "$2" != "-s" ]; then
     npm run build
