@@ -2,6 +2,9 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
+const url = process.env.URL || 'https://nyxian.app/';
+const baseUrl = process.env.BASE_URL || '/';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Nyxian',
@@ -15,8 +18,8 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  url: process.env.URL || 'https://nyxian.app/',
-  baseUrl: process.env.BASE_URL || '/',
+  url: url,
+  baseUrl: baseUrl,
 
   onBrokenLinks: 'throw',
 
@@ -189,7 +192,7 @@ const config = {
       attributes: {
         rel: 'icon',
         type: 'image/png',
-        href: process.env.BASE_URL || '/' + 'favicon/favicon-96x96.png',
+        href: baseUrl + 'favicon/favicon-96x96.png',
         sizes: '96x96',
       },
     },
@@ -198,14 +201,14 @@ const config = {
       attributes: {
         rel: 'icon',
         type: 'image/svg+xml',
-        href: process.env.BASE_URL || '/' + 'favicon/favicon.svg',
+        href: baseUrl + 'favicon/favicon.svg',
       },
     },
     {
       tagName: 'link',
       attributes: {
         rel: 'shortcut icon',
-        href: process.env.BASE_URL || '/' + 'favicon.ico',
+        href: baseUrl + 'favicon.ico',
       },
     },
     {
@@ -213,14 +216,14 @@ const config = {
       attributes: {
         rel: 'apple-touch-icon',
         sizes: '180x180',
-        href: process.env.BASE_URL || '/' + 'favicon/apple-touch-icon.png',
+        href: baseUrl + 'favicon/apple-touch-icon.png',
       },
     },
     {
       tagName: 'link',
       attributes: {
         rel: 'manifest',
-        href: process.env.BASE_URL || '/' + 'favicon/site.webmanifest',
+        href: baseUrl + 'favicon/site.webmanifest',
       },
     },
     {
