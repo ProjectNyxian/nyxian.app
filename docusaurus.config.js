@@ -15,7 +15,13 @@ const config = {
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    v4: {
+      removeLegacyPostBuildHeadAttribute: true,
+      useCssCascadeLayers: true,
+      siteStorageNamespacing: true,
+      fasterByDefault: (process.env.DOCUSAURUS_FASTER ?? 'true') === 'true',
+      mdx1CompatDisabledByDefault: true,
+    },
   },
 
   url: url,
