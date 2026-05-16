@@ -46,7 +46,7 @@ This command generates static content into the `build` directory and can be serv
 
 ### Github Pages
 
-You can find an automatic build of the newest state at https://projectnyxian.github.io/nyxian.app/
+You can find an automatic build of the newest state at https://emexlab.github.io/nyxian.app/
 
 ### SSH
 
