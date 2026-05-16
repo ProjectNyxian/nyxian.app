@@ -1,7 +1,7 @@
 # nyxian.app
-[![Discord invite](https://dcbadge.limes.pink/api/server/VEMvDMJ8KB?style=flat)](https://discord.gg/VEMvDMJ8KB)
-[![Deploy test site](https://github.com/ProjectNyxian/nyxian.app/actions/workflows/test_deploy.yml/badge.svg)](https://github.com/ProjectNyxian/nyxian.app/actions/workflows/test_deploy.yml)
-[![Docusaurus Version](https://img.shields.io/github/package-json/dependency-version/ProjectNyxian/nyxian.app/%40docusaurus%2Fcore?logo=docusaurus&label=Docusaurus)](https://docusaurus.io/)
+[![Discord invite](https://dcbadge.limes.pink/api/server/Cbeg3gJzC7?style=flat)](https://discord.gg/Cbeg3gJzC7)
+[![Deploy test site](https://github.com/emexlab/nyxian.app/actions/workflows/test_deploy.yml/badge.svg)](https://github.com/emexlab/nyxian.app/actions/workflows/test_deploy.yml)
+[![Docusaurus Version](https://img.shields.io/github/package-json/dependency-version/emexlab/nyxian.app/%40docusaurus%2Fcore?logo=docusaurus&label=Docusaurus)](https://docusaurus.io/)
 
 [nyxian.app](https://nyxian.app/) was built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
