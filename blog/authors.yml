@@ -4,7 +4,9 @@ lucavmu:
   image_url: https://github.com/lucaVmu.png
   page: true
   socials:
+    x: lucavmu
     github: LucaVmu
+    email: lucavmu@emexlab.de
 
 catelyn:
   name: Catelyn
@@ -15,6 +17,7 @@ catelyn:
   socials:
     x: mimallocly
     github: mimalloc
+    email: mimalloc@emexlab.de
 
 emex:
   name: emex
@@ -24,6 +27,7 @@ emex:
   socials:
     x: emexthecat
     github: emexos
+    email: emex@emexlab.de
 
 nyxia:
   name: Nyxia
@@ -34,4 +38,3 @@ nyxia:
   socials:
     x: nyxengineer
     github: mach-port-t
-    email: ceo@nyxian.app

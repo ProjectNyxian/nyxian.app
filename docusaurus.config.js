@@ -3,7 +3,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
 const url = process.env.URL || 'https://emexlab.org/';
-const baseUrl = process.env.BASE_URL || '/emexDE/';
+const baseUrl = process.env.BASE_URL || '/';
 const github = 'emexlab/emexlab.github.io'
 
 /** @type {import('@docusaurus/types').Config} */
@@ -175,7 +175,7 @@ const config = {
             items: [
               {
                 label: 'Email',
-                href: 'mailto:ceo@emexlab.org',
+                href: 'mailto:lucavmu@emexlab.org',
               },
             ],
           },

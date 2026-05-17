@@ -15,15 +15,16 @@ if [ "$2" != "--skip-build" ] && [ "$2" != "-s" ]; then
 fi
 
 ssh "$1" /bin/sh <<'EOF'
-rm -rf "$HOME/emexlab"
+rm -rf "$HOME/emexDE"
 EOF
 
-scp -rC ./build "$1:~/emexlab"
+scp -rC ./build "$1:~/emexDE"
 
 ssh "$1" /bin/sh <<'EOF'
 set -e
-find "$HOME/emexlab" -type d -exec chmod 755 {} \;
-find "$HOME/emexlab" -type f -exec chmod 644 {} \;
+find "$HOME/emexDE" -type d -exec chmod 755 {} \;
+find "$HOME/emexDE" -type f -exec chmod 644 {} \;
+mv "$HOME/emexDE" "$HOME/emexlab" # For now...
 mv --exchange -T "$HOME/emexlab" /var/www/emexlab
 rm -rf "$HOME/emexlab"
 EOF
