@@ -43,8 +43,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description={siteConfig.tagline}>
+      title="emexDE"
+      description="IDE to develop native code iOS apps and tools on unjailbroken iOS">
       <HomepageHeader />
       <main className={styles.center}>
         <img src={useBaseUrl('/emexDE/img/mockup.png')} alt="Mockup" className={styles.showcase} />

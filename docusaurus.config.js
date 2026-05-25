@@ -7,7 +7,7 @@ const baseUrl = process.env.BASE_URL || '/';
 
 const config = {
   title: 'emexLabs',
-  tagline: 'TODO: Add tagline', // TODO
+  tagline: 'Unfolding the power of programming',
   favicon: '/favicon.ico',
 
   titleDelimiter: '·',
@@ -106,6 +106,17 @@ const config = {
         onUntruncatedBlogPosts: 'warn',
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'emex64',
+        path: 'emex64/docs',
+        routeBasePath: 'emex64/docs',
+        sidebarPath: require.resolve('./sidebars.js'),
+        editUrl:
+          'https://github.com/emexlab/emexlab.github.io/tree/main/',
+      },
+    ],
   ],
 
   themeConfig:
@@ -126,6 +137,11 @@ const config = {
           {
             to: 'emexOS',
             label: 'emexOS',
+            position: 'left'
+          },
+          {
+            to: 'emex64',
+            label: 'emex64',
             position: 'left'
           },
           {
@@ -167,10 +183,6 @@ const config = {
               {
                 label: 'Members',
                 to: 'members',
-              },
-              {
-                label: 'Project Maintainers',
-                to: 'maintainers',
               },
               {
                 label: 'Website Credits',

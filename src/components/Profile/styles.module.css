@@ -20,8 +20,9 @@
     min-width: 0;
 }
 
-.profile h2 {
+.profile span {
     margin-bottom: 0;
+    font-size: x-large;
 }
 
 .profile small {

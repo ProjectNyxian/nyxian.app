@@ -6,8 +6,8 @@ export default function Profile({ name, role, github, img }) {
         <a className={styles.profile} href={`https://github.com/${github}`} target='_blank' rel='noopener noreferrer'>
             <img alt={name} src={image} />
             <div>
-                <h2>{name}</h2>
-                <small title={role}>{role}</small>
+                <span>{name}</span>
+                {role != null && <small title={role}>{role}</small>}
             </div>
         </a>
     );
